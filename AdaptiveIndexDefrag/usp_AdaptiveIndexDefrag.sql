@@ -1012,7 +1012,7 @@ BEGIN SET @hasIXsOUT = 1 END ELSE BEGIN SET @hasIXsOUT = 0 END'
 		RAISERROR('Starting up...', 0, 42) WITH NOWAIT;
 
 		/* Declare variables */	
-		DECLARE @ver VARCHAR(5)
+		DECLARE @ver VARCHAR(10)
 				, @objectID int	
 				, @dbID int		
 				, @dbName NVARCHAR(256)		
